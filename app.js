@@ -13,7 +13,7 @@ app.use(expressLayouts);
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.get('/',(req,res,next)=>{
-  res.render('home-views.ejs');
+  res.render('home-view.ejs');
 });
 
 app.listen(3000);
